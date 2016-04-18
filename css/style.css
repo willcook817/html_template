@@ -1,0 +1,47 @@
+/* Below is the basic format for CSS:
+
+selector {
+  property: value;
+  property: value;
+  } property: value; ← Pair is called a “declaration” */
+/* 
+Element or type selectors select all of a type of element (such as img, p, or strong) Class selectors select all the elements with matching class attributes (.class)
+ID selectors select the one element with a matching ID attribute (#id) */
+
+body {
+	background-color: #74D4E9;
+	color: blue;
+	/**   ← Changes (text) color. Can be color name (grey), hex (#424242) or RGB value (rgb(42, 42, 42)) */
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40pt;
+	font-family: "Helvetica Neue", Arial, sans-serif; 
+	font: italic bold 10px sans-serif; 
+	text-align: center;
+	border: 1px solid black;
+}
+
+.list {
+	color: yellow;
+	font-size: 10pt;
+	text-align: left;
+	width: 100opx; 
+	/*   ← Size can be pixels (px), percent (%), or ems(em)  */
+	height: 10%;
+}
+img {
+	width: 25%;
+	height: auto;
+}
+.myclassnameismadeup {
+	color: red;
+  font-size: 20px;
+  background-color: white;
+  padding: 50px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+}
